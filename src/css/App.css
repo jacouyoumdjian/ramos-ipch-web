@@ -37,29 +37,39 @@
   }
 }
 
-/* NAVBAR */
+.app-feed {
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
-.navbar {
+/* NAVBAR */
+.topnav {
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
 }
 
-.navbar-container a {
-  background-color: #4caf50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 1.2% 1% 1.2% 1%;
 }
 
-.navbtn {
-  background-color: #4caf50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.nav-item:hover {
+  background-color: #bcbbbb;
+  transition: all 0.5s ease;
+}
+
+.link-container {
+  margin-top: 0.5%;
+  position: relative;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  position: relative;
 }
 
 /* HOME */
@@ -67,10 +77,7 @@
 /* DROPDOWNS */
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color: #4caf50;
-  color: white;
   padding: 16px;
-  font-size: 16px;
   border: none;
   cursor: pointer;
 }
@@ -86,7 +93,7 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 205px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -107,9 +114,11 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+  transition: all 0.5s ease;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #bcbbbb;
+  transition: all 0.5s ease;
 }
