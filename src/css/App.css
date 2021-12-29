@@ -108,25 +108,20 @@ p.normal-text-white {
 }
 
 /* HOME */
-/* .home-container {
-  display: flex;
-  align-items: stretch;
-  text-align: center;
-} */
 
 .home-items-white {
   display: grid;
   grid-template-columns: 20% 20% 60%;
   overflow: hidden;
   position: relative;
-  height: 35vh;
+  height: 30vh;
 }
 
 .home-items-blue {
   display: grid;
   grid-template-columns: 20% 20% 60%;
   background-color: #19136e;
-  height: 38vh;
+  height: 36vh;
   padding-top: 1.5%;
 }
 
@@ -199,9 +194,12 @@ p.normal-text-white {
 }
 
 /* CARROUSEL */
-.carousel-container {
+.carousel-div {
+  /* max-width: 110%;
+  max-height: 40%;
+  display: block; */
   position: relative;
-  height: 40vh;
+  height: auto;
   width: 100%;
-  background-color: aqua;
+  background-color: #5e6363;
 }
