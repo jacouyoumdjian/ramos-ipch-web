@@ -8,7 +8,7 @@ class Navbar extends Component {
             <div className="topnav">
                     <div className='nav-item'>
                         <div className="link-container">
-                            <Link className="link" to="/home"><h4 className='ramos-text'>Ramos Sello IPCh</h4></Link>
+                            <Link className="link" to="/"><h4 className='ramos-text'>Ramos Sello IPCh</h4></Link>
                         </div>
                     </div>
 

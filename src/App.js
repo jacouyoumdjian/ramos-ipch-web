@@ -9,29 +9,31 @@ class App extends Component {
   render() {
     return(
       <BrowserRouter>
-        <div className='app-feed'>
-          <div className='carousel-container'>
-              {/* <img src={require('../img/p5.jpeg')} alt="Ramos IPCh" className='center' /> */}
-              <Carousel />
-          </div>
-          
-          <Navbar />
+        <div className='body-container'>
+          <div className='app-feed'>
+            <div className='carousel-container'>
+                {/* <img src={require('../img/p5.jpeg')} alt="Ramos IPCh" className='center' /> */}
+                <Carousel />
+            </div>
+            
+            <Navbar />
 
-          <Routes>
-            <Route path='/home' element={<Home/>} />
-            <Route path='/descripcion' element={<Descripcion/>} />
-            <Route path='/historial' element={<Historial/>} />
-            <Route path='/metodologias' element={<Metodologias/>} />
-          </Routes>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+            <Routes>
+              <Route path='/' element={<Home/>} />
+              <Route path='/descripcion' element={<Descripcion/>} />
+              <Route path='/historial' element={<Historial/>} />
+              <Route path='/metodologias' element={<Metodologias/>} />
+            </Routes>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
         </div>
       </BrowserRouter>
     );
