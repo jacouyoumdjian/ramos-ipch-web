@@ -37,9 +37,25 @@
   }
 }
 
+/* GENERAL */
 .app-feed {
   margin-right: 10%;
   margin-left: 10%;
+}
+
+div.view-title-container {
+  text-align: center;
+  position: relative;
+}
+
+/* TEXT */
+h3.ramos-text {
+  font-family: "Signika", sans-serif;
+}
+
+h2.view-title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 /* NAVBAR */
@@ -73,6 +89,35 @@
 }
 
 /* HOME */
+/* .home-container {
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+} */
+
+.home-items {
+  display: flex;
+  align-items: stretch;
+}
+
+.home-img {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-grow: 8;
+}
+
+.home-text {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  flex-grow: 2;
+}
 
 /* DROPDOWNS */
 /* Style The Dropdown Button */
@@ -121,4 +166,12 @@
 .dropdown:hover .dropbtn {
   background-color: #bcbbbb;
   transition: all 0.5s ease;
+}
+
+/* CARROUSEL */
+.carousel-container {
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  background-color: aqua;
 }

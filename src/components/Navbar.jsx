@@ -8,7 +8,13 @@ class Navbar extends Component {
             <div className="topnav">
                     <div className='nav-item'>
                         <div className="link-container">
-                            <Link className="link" to="/home">¿Qué son?</Link>
+                            <Link className="link" to="/home"><h4 className='ramos-text'>Ramos Sello IPCh</h4></Link>
+                        </div>
+                    </div>
+
+                    <div className='nav-item'>
+                        <div className="link-container">
+                            <Link className="link" to="/descripcion">¿Qué son?</Link>
                         </div>
                     </div>
 
@@ -19,7 +25,8 @@ class Navbar extends Component {
                     </div>
 
                     <div className="dropdown">
-                        <button className="dropbtn">Metodologías Sello IPCh</button>
+                        {/* <button className="dropbtn">Metodologías Sello IPCh</button> */}
+                        <button className="dropbtn"><Link className="link" to="/metodologias">Metodologías Sello IPCh</Link></button>
                         <div className="dropdown-content">
                             <a href="#">Ayudantías</a>
                             <a href="#">Cátedra</a>
