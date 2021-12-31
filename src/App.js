@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar, Home, Historial, Carousel, Descripcion, Metodologias} from './components';
+import {Navbar, Home, Historial, Carousel, Descripcion, Metodologias, Ayudantias} from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route, useParams, useRouteMatch } from "react-router-dom";
 import './css/App.css';
@@ -12,7 +12,6 @@ class App extends Component {
         <div className='body-container'>
           <div className='app-feed'>
             <div className='carousel-container'>
-                {/* <img src={require('../img/p5.jpeg')} alt="Ramos IPCh" className='center' /> */}
                 <Carousel />
             </div>
             
@@ -23,6 +22,7 @@ class App extends Component {
               <Route path='/descripcion' element={<Descripcion/>} />
               <Route path='/historial' element={<Historial/>} />
               <Route path='/metodologias' element={<Metodologias/>} />
+              <Route path='/ayudantias' element={<Ayudantias/>} />
             </Routes>
             <br />
             <br />

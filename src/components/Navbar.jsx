@@ -6,7 +6,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className="topnav">
-                    <div className='nav-item'>
+                    <div className='nav-logo'>
                         <div className="link-container">
                             <Link className="link" to="/"><h4 className='ramos-text'>Ramos Sello IPCh</h4></Link>
                         </div>
@@ -28,7 +28,7 @@ class Navbar extends Component {
                         {/* <button className="dropbtn">Metodologías Sello IPCh</button> */}
                         <button className="dropbtn"><Link className="link" to="/metodologias">Metodologías Sello IPCh</Link></button>
                         <div className="dropdown-content">
-                            <a href="#">Ayudantías</a>
+                            <a href="#"><Link className="link" to="/ayudantias">Ayudantías</Link></a>
                             <a href="#">Cátedra</a>
                             <a href="#">Proyectos</a>
                             <a href="#">Salidas a Terreno</a>
