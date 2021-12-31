@@ -13,7 +13,7 @@ class Descripcion extends Component {
                     <h2 className='view-title'>¿Qué son los Ramos Sello IPCh?</h2>
                     <br />
                     <br />
-                    <div className='description-container'>
+                    <div className='view-content'>
                         <div className='description-text-div'>
                             <p className='normal-text'>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -38,7 +38,7 @@ class Descripcion extends Component {
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                             </p>
                             <br />
-                            <img src={require('../img/pilares.png')} alt="Ramos Sello IPCh" className='home-img' />
+                            <img src={require('../img/pilares.png')} alt="Ramos Sello IPCh" className='view-img' />
                             <br />
                             <br />
                             <br />

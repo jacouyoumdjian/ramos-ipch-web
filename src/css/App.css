@@ -53,7 +53,25 @@ div.view-title-container {
   position: relative;
 }
 
+.view-content {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  overflow: hidden;
+  position: relative;
+}
+
+.view-img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
 /* TEXT */
+h2.view-title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
 h4.ramos-text {
   font-family: "Signika", sans-serif;
 }
@@ -63,9 +81,8 @@ h4.ramos-text-white {
   color: white;
 }
 
-h2.view-title {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
+h5.cards-text {
+  font-family: "Open Sans", sans-serif;
 }
 
 p.normal-text {

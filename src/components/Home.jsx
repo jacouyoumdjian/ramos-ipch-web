@@ -17,7 +17,7 @@ class Home extends Component {
                 <br />
                 <div className='home-items-white'>
                     <div className='home-img-div-white'>
-                        <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='home-img' />
+                        <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='view-img' />
                     </div>
 
                     <div className='home-text-div-white'>
@@ -51,13 +51,13 @@ class Home extends Component {
                     </div>
                     
                     <div className='home-img-div-blue'>
-                        <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='home-img' />
+                        <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='view-img' />
                     </div>
                 </div>
                 <br />
                 <div className='home-items-white'>
                     <div className='home-img-div-white'>
-                        <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='home-img' />
+                        <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='view-img' />
                     </div>
 
                     <div className='home-text-div-white'>

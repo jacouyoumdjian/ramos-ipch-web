@@ -5,7 +5,7 @@ class Carousel extends Component {
     render() {
         return (
             <div className='carousel-div'>
-                <img src={require('../img/feed_img.png')} alt="Ramos Sello IPCh" className='home-img'/>
+                <img src={require('../img/feed_img.png')} alt="Ramos Sello IPCh" className='view-img'/>
             </div>
         );
     }
