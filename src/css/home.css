@@ -40,3 +40,15 @@
   margin-right: 15%;
   margin-left: 10%;
 }
+
+.home-data-template {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-data {
+  position: relative;
+  display: inline-block;
+  margin-right: 5%;
+}

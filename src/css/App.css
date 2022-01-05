@@ -72,9 +72,14 @@ div.center-content {
 }
 
 /* TEXT */
+h1.home-data-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 15vh;
+  color: #8b3030;
+}
+
 h2.view-title {
   font-family: "Montserrat", sans-serif;
-  text-align: center;
 }
 
 h4.ramos-text {
@@ -88,6 +93,10 @@ h4.ramos-text-white {
 
 h5.cards-text {
   font-family: "Open Sans", sans-serif;
+}
+
+h4.proyects-title {
+  font-family: "Signika", sans-serif;
 }
 
 p.normal-text {

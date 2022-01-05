@@ -1,3 +1,34 @@
-.proyectos-text-div {
+.proyect-content {
   grid-column: 2/3;
+  position: relative;
+  text-align: justify;
+}
+
+.proyect-card-template {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  overflow: hidden;
+  position: relative;
+  height: 30vh;
+  margin-bottom: 2%;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.proyect-card-text {
+  grid-column: 1/2;
+  height: auto;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.proyect-card-img {
+  grid-column: 2/2;
+  width: 25vh;
+  height: 25vh;
+  position: relative;
+  top: 10%;
+  left: 20%;
 }

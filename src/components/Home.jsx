@@ -34,9 +34,24 @@ class Home extends Component {
                         </button>
                     </div>
                 </div>
-                <br />
+                <br /><br />
+                <div className='home-data-template'>
+                        <div className='home-data'>
+                            <h1 className='home-data-text'>56%</h1>
+                            <p className='normal-text'>De los estudiantes XXX</p>
+                        </div>
+                        <div className='home-data'>
+                            <h1 className='home-data-text'>78%</h1>
+                            <p className='normal-text'>De los estudiantes XXX</p>
+                        </div>
+                        <div className='home-data'>
+                            <h1 className='home-data-text'>66%</h1>
+                            <p className='normal-text'>De los estudiantes XXX</p>
+                        </div>
+                </div>
+                <br /><br />
                 <div className='home-items-blue'>
-                <div className='home-text-div-blue'>
+                    <div className='home-text-div-blue'>
                         <h4 className='ramos-text-white'>Historial de Ramos Sello IPCh</h4>
                         <p className='normal-text-white'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -75,6 +90,25 @@ class Home extends Component {
                     </div>
                 </div>
                 <br />
+                <div className='home-items-blue'>
+                    <div className='home-text-div-blue'>
+                        <h4 className='ramos-text-white'>Proyectos de Ramos Sello IPCh</h4>
+                        <p className='normal-text-white'>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        <br />
+                        </p>
+                        <button type="button" class="btn btn-warning">
+                            <Link className="link" to="/proyectos">Conocer más ...</Link>
+                        </button>
+                    </div>
+                    
+                    <div className='home-img-div-blue'>
+                        <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='view-img' />
+                    </div>
+                </div>
                 <br />
                 <br />
              </div>

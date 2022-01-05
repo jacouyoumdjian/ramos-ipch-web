@@ -1,5 +1,6 @@
 .description-text-div {
   grid-column: 2/3;
+  text-align: justify;
 }
 
 .description-img {
