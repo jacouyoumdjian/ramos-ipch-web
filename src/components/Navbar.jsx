@@ -12,20 +12,19 @@ class Navbar extends Component {
                         </div>
                     </div>
 
-                    <div className='nav-item'>
-                        <div className="link-container">
-                            <Link className="link" to="/descripcion">¿Qué son?</Link>
-                        </div>
+                    <div className="navbar-item">
+                        <button className="dropbtn"><Link className="link" to="/descripcion">¿Qué son?</Link></button>
                     </div>
 
-                    <div className='nav-item'>
-                        <div className="link-container">
-                            <Link className="link" to="/historial">Historial</Link>
-                        </div>
+                    <div className="navbar-item">
+                        <button className="dropbtn"><Link className="link" to="/historial">Historial</Link></button>
                     </div>
 
-                    <div className="dropdown">
-                        {/* <button className="dropbtn">Metodologías Sello IPCh</button> */}
+                    <div className="navbar-item">
+                        <button className="dropbtn"><Link className="link" to="/proyectos">Proyectos</Link></button>
+                    </div>
+
+                    <div className="navbar-item">
                         <button className="dropbtn"><Link className="link" to="/metodologias">Metodologías Sello IPCh</Link></button>
                         <div className="dropdown-content">
                             <a href="#"><Link className="link" to="/ayudantias">Ayudantías</Link></a>
@@ -34,6 +33,10 @@ class Navbar extends Component {
                             <a href="#">Salidas a Terreno</a>
                             <a href="#">Tareas</a>
                         </div>
+                    </div>
+
+                    <div className="navbar-item">
+                        <button className="dropbtn"><Link className="link" to="/historial">Equipo</Link></button>
                     </div>
             </div>
         );

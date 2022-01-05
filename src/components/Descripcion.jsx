@@ -9,11 +9,10 @@ class Descripcion extends Component {
                 <br />
                 <br />
                 <br />
-                <div className='view-title-container'>
+                <div className='center-content'>
                     <h2 className='view-title'>¿Qué son los Ramos Sello IPCh?</h2>
                     <br />
-                    <br />
-                    <div className='view-content'>
+                    <div className='view-content-template'>
                         <div className='description-text-div'>
                             <p className='normal-text'>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -42,14 +41,9 @@ class Descripcion extends Component {
                             <br />
                             <br />
                             <br />
-                            <br />
-                            <br />
-                            <br />
                         </div>
                     </div>
                 </div>
-                <br />
-                <br />
             </div>
         );
     }

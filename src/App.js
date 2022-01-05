@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Navbar, Home, Historial, Carousel, Descripcion, Metodologias, Ayudantias} from './components';
+import { Carousel, Navbar, Home, Descripcion, Historial, Proyectos, Metodologias, Ayudantias} from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route, useParams, useRouteMatch } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './css/App.css';
 
 class App extends Component {
@@ -21,6 +21,7 @@ class App extends Component {
               <Route path='/' element={<Home/>} />
               <Route path='/descripcion' element={<Descripcion/>} />
               <Route path='/historial' element={<Historial/>} />
+              <Route path='/proyectos' element={<Proyectos/>} />
               <Route path='/metodologias' element={<Metodologias/>} />
               <Route path='/ayudantias' element={<Ayudantias/>} />
             </Routes>

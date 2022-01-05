@@ -9,11 +9,11 @@ class Historial extends Component {
                 <br />
                 <br />
                 <br />
-                <div className='view-title-container'>
+                <div className='center-content'>
                     <h2 className='view-title'>Historial Ramos Sello IPCh</h2>
                     <br />
                     <br />
-                    <div className='view-content'>
+                    <div className='view-content-template'>
                         <div className='cards-container'>
                             <div class="card-div">
                                 <img src={require('../img/ipch_logo_azul.png')} alt="Avatar" className='historial-img' />

@@ -10,7 +10,7 @@ class Home extends Component {
                 <br />
                 <br />
                 <br />
-                <div className='view-title-container'>
+                <div className='center-content'>
                     <h2 className='view-title'>Iniciativa Ramos Sello IPCh</h2>
                 </div>
                 <br />
