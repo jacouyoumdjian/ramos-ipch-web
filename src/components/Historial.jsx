@@ -16,21 +16,21 @@ class Historial extends Component {
                     <div className='view-content-template'>
                         <div className='cards-container'>
                             <div class="card-div">
-                                <img src={require('../img/ipch_logo_azul.png')} alt="Avatar" className='historial-img' />
+                                <img src={require('../img/ipch_logo_azul.png')} alt="Ramos Sello IPCh" className='historial-img' />
                                 <div class="card-text">
                                     <br />
                                     <h5 className='cards-text'>Semestre 2° - 2020</h5>
                                 </div>
                             </div>
                             <div class="card-div">
-                                <img src={require('../img/ipch_logo_azul.png')} alt="Avatar" className='historial-img' />
+                                <img src={require('../img/ipch_logo_azul.png')} alt="Ramos Sello IPCh" className='historial-img' />
                                 <div class="card-text">
                                     <br />
                                     <h5 className='cards-text'>Semestre 1° - 2021</h5>
                                 </div>
                             </div>
                             <div class="card-div">
-                                <img src={require('../img/ipch_logo_azul.png')} alt="Avatar" className='historial-img' />
+                                <img src={require('../img/ipch_logo_azul.png')} alt="Ramos Sello IPCh" className='historial-img' />
                                 <div class="card-text">
                                     <br />
                                     <h5 className='cards-text'>Semestre 2° - 2021</h5>

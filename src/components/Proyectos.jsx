@@ -42,12 +42,12 @@ class Proyectos extends Component {
                         <br />
                         <div className='proyect-card-template'>
                             <div className='proyect-card-text'>
-                                <h4 className='proyects-title'>Título de proyecto 1: Ingeniería Para Chile en Tiempos de Pandemia</h4>
+                                <h4 className='proyects-title'>Título de proyecto 2: Ingeniería Para Chile en otros Tiempos de Pandemia</h4>
                                 <br />
                                 <p className='normal-text'>
-                                    Optimización
+                                    Mecánica de Fluidos
                                     <br />
-                                    Semestre 1° - 2021
+                                    Semestre 2° - 2021
                                 </p>
                                 <button type="button" class="btn btn-warning">
                                     Descargar documento

@@ -1,0 +1,29 @@
+.metodologias-text-div {
+  grid-column: 2/3;
+  text-align: justify;
+}
+
+.metod-container {
+  grid-column: 2/3;
+  display: flex;
+}
+
+.metod-div {
+  transition: 0.3s;
+  width: 40vh;
+  height: 30vh;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 3%;
+  margin-right: 3%;
+}
+
+.metod-text {
+  padding: 2px 16px;
+}
+
+.metod-img {
+  width: auto;
+  height: 20vh;
+  border-radius: 5px 5px 0 0;
+}
