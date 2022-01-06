@@ -89,7 +89,7 @@ class Home extends Component {
                         </button>
                     </div>
                 </div>
-                <br />
+                <br /><br />
                 <div className='home-items-blue'>
                     <div className='home-text-div-blue'>
                         <h4 className='ramos-text-white'>Proyectos de Ramos Sello IPCh</h4>

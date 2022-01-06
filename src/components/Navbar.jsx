@@ -36,7 +36,7 @@ class Navbar extends Component {
                     </div>
 
                     <div className="navbar-item">
-                        <button className="dropbtn"><Link className="link" to="/historial">Equipo</Link></button>
+                        <button className="dropbtn"><Link className="link" to="/equipo">Equipo</Link></button>
                     </div>
             </div>
         );
