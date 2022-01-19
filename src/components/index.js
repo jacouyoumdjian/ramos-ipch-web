@@ -8,3 +8,4 @@ export { default as Proyectos} from './Proyectos';
 export { default as Metodologias} from './Metodologias';
 export { default as Ayudantias} from './metodologias/Ayudantias';
 export { default as Equipo} from './Equipo';
+// export { default as Collapse} from './semestres/Collapse';

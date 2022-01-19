@@ -130,7 +130,8 @@ p.normal-text-white {
   position: relative;
 }
 
-/* DROPDOWNS */
+/* FEATURES */
+/* Dropdowns */
 /* Style The Dropdown Button */
 .dropbtn {
   padding: 16px;
@@ -179,6 +180,50 @@ p.normal-text-white {
 .navbar-item:hover .dropbtn {
   background-color: #bcbbbb;
   transition: all 0.5s ease;
+}
+
+/* Collapsable */
+.collapse-container {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  width: 120vh;
+  background-color: #f2f2f2;
+  border-radius: 1vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 2%;
+}
+
+.collapse-text {
+  grid-column: 1/2;
+  width: 50vh;
+  position: relative;
+}
+
+.collapse-btn-container {
+  grid-column: 2/2;
+  width: 100%;
+  position: relative;
+}
+
+.collapse-button {
+  display: block;
+  width: auto;
+  background-color: cyan;
+  border-radius: 1vh;
+  position: relative;
+}
+
+.collapse-content.collapsed {
+  display: none;
+  transition: 5s ease;
+}
+
+.collapsed-content.expanded {
+  display: block;
+  transition: 5s ease;
 }
 
 /* CARROUSEL */

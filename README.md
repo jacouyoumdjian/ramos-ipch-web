@@ -6,3 +6,4 @@ Repositorio página web de ramos sello IPCh.
 
 - https://www.w3schools.com/css/css_dropdowns.asp
 - https://www.freecodecamp.org/news/react-router-tutorial/
+- https://www.30secondsofcode.org/react/s/collapse
