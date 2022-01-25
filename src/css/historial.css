@@ -96,7 +96,7 @@
 
 .collapse-text {
   grid-column: 1/2;
-  width: 50vh;
+  width: 100vh;
   position: relative;
 }
 
