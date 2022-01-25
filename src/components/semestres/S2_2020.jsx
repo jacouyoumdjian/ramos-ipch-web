@@ -33,11 +33,11 @@ const S2_2020 = () => {
                         ramosS2_2020?.map((item, i) => 
                             <div key={i}>
                                 <Collapse>
-                                    <h4 className='ramos-text'>{item[i][0]}</h4>
+                                    <h4 className='ramos-text'>{item[0]}</h4>
                                     <ul>
-                                        <li>{item[i][1]}</li>
-                                        <li>{item[i][2]}</li>
-                                        <li>{item[i][3]}</li>
+                                        <li>{item[1]}</li>
+                                        <li>{item[2]}</li>
+                                        <li>{item[3]}</li>
                                     </ul>
                                 </Collapse>
                             </div>

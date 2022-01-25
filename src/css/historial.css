@@ -77,3 +77,57 @@
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+
+/* Collapsable */
+.collapse-container {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  padding-top: 1%;
+  padding-left: 1%;
+  width: 120vh;
+  background-color: #f2f2f2;
+  border-radius: 1vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 2%;
+}
+
+.collapse-text {
+  grid-column: 1/2;
+  width: 50vh;
+  position: relative;
+}
+
+.collapse-btn-container {
+  grid-column: 2/2;
+  width: 100%;
+  position: relative;
+}
+
+.collapse-button {
+  display: block;
+  width: auto;
+  border-radius: 1vh;
+  position: relative;
+  border: none;
+  background: none;
+  left: 50%;
+  margin-bottom: 1.5vh;
+}
+
+.collapse-content.collapsed {
+  display: none;
+  transition: 5s ease;
+}
+
+.collapsed-content.expanded {
+  display: block;
+  transition: 5s ease;
+}
+
+.icon-btn {
+  height: auto;
+  width: 3vh;
+}
