@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { useState } from "react";
+import React from 'react';
 import '../../css/App.css';
 import '../../css/historial.css';
 import Collapse from '../features/Collapse';
@@ -7,37 +6,37 @@ import Collapse from '../features/Collapse';
 
 const S2_2020 = () => {
 
-    const ramosS2_2020 = [
-                        ['Gestión de Operaciones en la Construcción - ICC3244', 'Miguel Mora.', 'Leonardo Caamaño.', 'Se invitaron charlistas que entregaron su testimonio \
+    const dataRamosS2_2020 = [
+                        ['Gestión de Operaciones en la Construcción - ICC3244', 'Ingeniería y Gestión de la Construcción.', 'Miguel Mora.', 'Leonardo Caamaño.', 'Se invitaron charlistas que entregaron su testimonio \
                         sobre cómo aplicar la optimización en un caso real de gran impacto a las personas. Se realizaron actividades en clase en que durante los \
                         primeros 30 minutos de la clase se daba un tiempo para investigar acerca de un tema que proponía el ayudante \
                         (atinente a los pilares del sello), y luego este se discutía entre los estudiantes. \
                         Se les entregó lecturas a los estudiantes para que complementarán su formación en el curso, y fueran capaces de ver la aplicación \
                         de los contenidos en casos reales. Se realizó una interrogación que evaluó los conocimientos y \
                         competencias de los estudiantes, contextualizada en un caso real.', '38.'],
-                        ['Gestión de Recursos Hídricos - ICH3710', 'Sebastián Vicuña.', 'Vicente Jander.', 
+                        ['Gestión de Recursos Hídricos - ICH3710', 'Ingeniería Hidráulica y Ambiental.', 'Sebastián Vicuña.', 'Vicente Jander.', 
                         'En las tareas se incorporó una pregunta de investigación bibliográfica acerca de un caso real \
                         que se vinculara con la aplicación de los contenidos del curso, y fomente la reflexión personal \
                         del estudiante. En las ayudantías se realizaron ejercicios contextualizados en un problema real de gran impacto a personas, \
                         sociedad y/o el ecosistema en su conjunto. Se destinaba una sección de la cátedra para tener discusiones abiertas sobre \
                         abiertamente las respuestas de cada unos de los estudiantes a la pregunta de investigación bibliográfica.',
                         '30.'],
-                        ['Mecánica de Fluidos - ICH1104', 'Cristián Escauriaza, Wernher Brevis, Rodrigo Cienfuegos.', 'Ayudantes: Camila Chauan, \
+                        ['Mecánica de Fluidos - ICH1104', 'Ingeniería Hidráulica y Ambiental.', 'Cristián Escauriaza, Wernher Brevis, Rodrigo Cienfuegos.', 'Ayudantes: Camila Chauan, \
                         Ismael Mestre.', 'En el proyecto semestral se generó un contenido pedagógico a partir de los contenidos del curso para ser \
                         entregado a instituciones de educación secundaria. En las ayudantías se realizaron ejercicios contextualizados en un problema real de \
                         gran impacto a personas, sociedad y/o el ecosistema en su conjunto.', '577.'],
-                        ['Optimización - ICS1113', 'Gustavo Angulo.', 'Martin Cadagan, Camila Toro.', 'En el proyecto semestral se incorporaron \
+                        ['Optimización - ICS1113', 'Ingeniería Industrial y de Sistemas.', 'Gustavo Angulo.', 'Martin Cadagan, Camila Toro.', 'En el proyecto semestral se incorporaron \
                         temáticas de problemáticas reales de la Municipalidad de Las Condes. En las ayudantías transversales se realizaron ejercicios \
                         contextualizados en un problema real de gran impacto a personas, sociedad y/o el ecosistema en su conjunto. \
                         Se invitaron a charlistas que entregaron su testimonio sobre cómo aplicar la optimización en un caso real de gran impacto a personas.',
                         '586.'],
-                        ['Sustentabilidad en la Construcción - ICC3464', 'Manuel Carpio.', 'Leonardo Caamaño.', 
+                        ['Sustentabilidad en la Construcción - ICC3464', 'Ingeniería y Gestión de la Construcción.', 'Manuel Carpio.', 'Leonardo Caamaño.', 
                         'Se realizaron distintos controles acerca de las lecturas complementarias y casos reales relacionados \
                         al curso que fomentaban el pensamiento crítico en los estudiantes. Se entregaron lecturas a \
                         los estudiantes para complementar su formación en el curso, y sean capaces de ver la aplicación de los contenidos \
                         en casos reales. Se invitaron a charlistas que entregaron su testimonio sobre cómo aplicar la aplicar la sustentabilidad \
                         en la construcción en un caso real de gran impacto a personas.', '37.'],
-                        ['Taller de Evaluación, Tratamiento y Remediación Ambiental - ICH2394', 'María Molinos.', 
+                        ['Taller de Evaluación, Tratamiento y Remediación Ambiental - ICH2394', 'Ingeniería Hidráulica y Ambiental.', 'María Molinos.', 
                         'Daniela Madrazo, Angel Perez (contacto Puentes UC).', 'Se colaboró en la comunicación y coordinación con Puentes UC \
                         y los estudiantes, para definir el trabajo a realizar con la contraparte del semestre: Municipalidad de Frutillar.\
                         Se realizó un trabajo con instituciones públicas al acercar la estructura de la postulación a fondos a los proyectos de los \
@@ -62,15 +61,16 @@ const S2_2020 = () => {
                     </p>
                     <br />
                     {
-                        ramosS2_2020?.map((item, i) => 
+                        dataRamosS2_2020?.map((item, i) => 
                             <div key={i}>
                                 <Collapse>
                                     <h4 className='ramos-text'>{item[0]}</h4>
                                     <ul>
-                                        <li><b>Profesores</b>: {item[1]}</li>
-                                        <li><b>Ayudantes</b>: {item[2]}</li>
-                                        <li><b>Propuesta IPCh</b>: {item[3]}</li>
-                                        <li><b>Número de estudiantes</b>: {item[4]}</li>
+                                        <li><b>Departamento</b>: {item[1]}</li>
+                                        <li><b>Profesores</b>: {item[2]}</li>
+                                        <li><b>Ayudantes</b>: {item[3]}</li>
+                                        <li><b>Propuesta IPCh</b>: {item[4]}</li>
+                                        <li><b>Número de estudiantes</b>: {item[5]}</li>
                                     </ul>
                                 </Collapse>
                             </div>

@@ -4,6 +4,8 @@ export { default as Home} from './Home';
 export { default as Descripcion} from './Descripcion';
 export { default as Historial} from './Historial';
 export { default as S2_2020} from './semestres/S2_2020';
+export { default as S1_2021} from './semestres/S1_2021';
+export { default as S2_2021} from './semestres/S2_2021';
 export { default as Proyectos} from './Proyectos';
 export { default as Metodologias} from './Metodologias';
 export { default as Ayudantias} from './metodologias/Ayudantias';

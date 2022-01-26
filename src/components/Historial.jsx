@@ -27,14 +27,14 @@ class Historial extends Component {
                                 <img src={require('../img/ipch_logo_azul.png')} alt="Ramos Sello IPCh" className='historial-img' />
                                 <div class="card-text">
                                     <br />
-                                    <h5 className='cards-text'>Semestre 1° - 2021</h5>
+                                    <h5 className='cards-text'><Link className="link" to="/s1-2021">Semestre 1° - 2021</Link></h5>
                                 </div>
                             </div>
                             <div class="card-div">
                                 <img src={require('../img/ipch_logo_azul.png')} alt="Ramos Sello IPCh" className='historial-img' />
                                 <div class="card-text">
                                     <br />
-                                    <h5 className='cards-text'>Semestre 2° - 2021</h5>
+                                    <h5 className='cards-text'><Link className="link" to="/s2-2021">Semestre 2° - 2021</Link></h5>
                                 </div>
                             </div>
                         </div>
