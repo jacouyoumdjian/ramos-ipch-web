@@ -27,21 +27,21 @@ class Metodologias extends Component {
                                 <img src={require('../img/ayudantias.png')} alt="Ramos Sello IPCh" className='metod-img' />
                                 <div class="metod-text">
                                     <br />
-                                    <h5 className='cards-text'><Link className="link" to="/ayudantias">Ayudantías</Link></h5>
+                                    <h5 className='cards-text'><Link className="link" to="/metod-ayudantias">Ayudantías</Link></h5>
                                 </div>
                             </div>
                             <div class="metod-div">
                                 <img src={require('../img/catedra.png')} alt="Ramos Sello IPCh" className='metod-img' />
                                 <div class="metod-text">
                                     <br />
-                                    <h5 className='cards-text'><Link className="link" to="/ayudantias">Cátedra</Link></h5>
+                                    <h5 className='cards-text'><Link className="link" to="/metod-catedra">Cátedra</Link></h5>
                                 </div>
                             </div>
                             <div class="metod-div">
                                 <img src={require('../img/proyectos.png')} alt="Ramos Sello IPCh" className='metod-img' />
                                 <div class="metod-text">
                                     <br />
-                                    <h5 className='cards-text'><Link className="link" to="/ayudantias">Proyectos</Link></h5>
+                                    <h5 className='cards-text'><Link className="link" to="/metod-proyectos">Proyectos</Link></h5>
                                 </div>
                             </div>
                         </div>
@@ -50,14 +50,14 @@ class Metodologias extends Component {
                                 <img src={require('../img/salidas.png')} alt="Ramos Sello IPCh" className='metod-img' />
                                 <div class="metod-text">
                                     <br />
-                                    <h5 className='cards-text'><Link className="link" to="/ayudantias">Salidas a Terreno</Link></h5>
+                                    <h5 className='cards-text'><Link className="link" to="/metod-salidas">Salidas a Terreno</Link></h5>
                                 </div>
                             </div>
                             <div class="metod-div">
                                 <img src={require('../img/tareas.png')} alt="Ramos Sello IPCh" className='metod-img' />
                                 <div class="metod-text">
                                     <br />
-                                    <h5 className='cards-text'><Link className="link" to="/ayudantias">Tareas</Link></h5>
+                                    <h5 className='cards-text'><Link className="link" to="/metod-tareas">Tareas</Link></h5>
                                 </div>
                             </div>
                         </div>

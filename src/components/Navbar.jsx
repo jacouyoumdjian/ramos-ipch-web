@@ -27,11 +27,11 @@ class Navbar extends Component {
                     <div className="navbar-item">
                         <button className="dropbtn"><Link className="link" to="/metodologias">Metodologías Sello IPCh</Link></button>
                         <div className="dropdown-content">
-                            <a href="#"><Link className="link" to="/ayudantias">Ayudantías</Link></a>
-                            <a href="#">Cátedra</a>
-                            <a href="#">Proyectos</a>
-                            <a href="#">Salidas a Terreno</a>
-                            <a href="#">Tareas</a>
+                            <a href="#"><Link className="link" to="/metod-ayudantias">Ayudantías</Link></a>
+                            <a href="#"><Link className="link" to="/metod-catedra">Cátedra</Link></a>
+                            <a href="#"><Link className="link" to="/metod-proyectos">Proyectos</Link></a>
+                            <a href="#"><Link className="link" to="/metod-salidas">Salidas a Terreno</Link></a>
+                            <a href="#"><Link className="link" to="/metod-tareas">Tareas</Link></a>
                         </div>
                     </div>
 
