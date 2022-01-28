@@ -1,3 +1,13 @@
+.home-center-items {
+  grid-column: 2/3;
+  text-align: justify;
+}
+
+.home-data-title {
+  position: relative;
+  text-align: center;
+}
+
 .home-items-white {
   display: grid;
   grid-template-columns: 20% 20% 60%;
@@ -49,6 +59,21 @@
 
 .home-data {
   position: relative;
-  display: inline-block;
-  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.home-data-container1 {
+  position: relative;
+  text-align: center;
+  width: 30vh;
+}
+
+.home-data-container2 {
+  position: relative;
+  text-align: center;
+  width: 30vh;
 }

@@ -19,7 +19,6 @@ class Home extends Component {
                     <div className='home-img-div-white'>
                         <img src={require('../img/test_logo.png')} alt="Ramos Sello IPCh" className='view-img' />
                     </div>
-
                     <div className='home-text-div-white'>
                         <h4 className='ramos-text'>¿Qué son los Ramos Sello IPCh?</h4>
                         <p className='normal-text'>
@@ -35,19 +34,47 @@ class Home extends Component {
                     </div>
                 </div>
                 <br /><br />
-                <div className='home-data-template'>
-                        <div className='home-data'>
-                            <h1 className='home-data-text'>56%</h1>
-                            <p className='normal-text'>De los estudiantes XXX</p>
+                <div className='view-content-template'>
+                    <div className='home-center-items'>
+                        <div className='home-data-title'>
+                            <h4 className='ramos-text'>El Sello IPCh ha impactado en ...</h4>
                         </div>
-                        <div className='home-data'>
-                            <h1 className='home-data-text'>78%</h1>
-                            <p className='normal-text'>De los estudiantes XXX</p>
+                        <br />
+                        <div className='home-data-template'>
+                            <div className='home-data'>
+                                <div className='home-data-container1'>
+                                    <h1 className='home-data-text'>1500</h1>
+                                </div>
+                                <div className='home-data-container2'>
+                                    <p className='normal-text'>Estudiantes</p>
+                                </div>
+                            </div>
+                            <div className='home-data'>
+                                <div className='home-data-container1'>
+                                    <h1 className='home-data-text'>15</h1>
+                                </div>
+                                <div className='home-data-container2'>
+                                    <p className='normal-text'>Ramos</p>
+                                </div>
+                            </div>
+                            <div className='home-data'>
+                                <div className='home-data-container1'>
+                                    <h1 className='home-data-text'>7</h1>
+                                </div>
+                                <div className='home-data-container2'>
+                                    <p className='normal-text'>Departamentos de Ingeniería</p>
+                                </div>
+                            </div>
+                            <div className='home-data'>
+                                <div className='home-data-container1'>
+                                    <h1 className='home-data-text'>0</h1>
+                                </div>
+                                <div className='home-data-container2'>
+                                    <p className='normal-text'>Documentos descargados</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className='home-data'>
-                            <h1 className='home-data-text'>66%</h1>
-                            <p className='normal-text'>De los estudiantes XXX</p>
-                        </div>
+                    </div>
                 </div>
                 <br /><br />
                 <div className='home-items-blue'>
