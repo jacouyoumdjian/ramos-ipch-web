@@ -6,49 +6,48 @@ import '@coreui/coreui/dist/css/coreui.min.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './css/App.css';
 
-class App extends Component {
+const App = () => {
 
-  render() {
-    return(
-      <BrowserRouter>
-        <div className='body-container'>
-          <div className='app-feed'>
-            <div className='carousel-container'>
-                <Carousel />
-            </div>
-            
-            <Navbar />
-
-            <Routes>
-              <Route path='/' element={<Home/>} />
-              <Route path='/descripcion' element={<Descripcion/>} />
-              {/* Rutas de  de Historial */}
-              <Route path='/historial' element={<Historial/>} />
-              <Route path='/s2-2020' element={<S2_2020/>} />
-              <Route path='/s1-2021' element={<S1_2021/>} />
-              <Route path='/s2-2021' element={<S2_2021/>} />
-              <Route path='/proyectos' element={<Proyectos/>} />
-              {/* Rutas de  de Metodologías */}
-              <Route path='/metodologias' element={<Metodologias/>} />
-              <Route path='/metod-ayudantias' element={<Ayudantias/>} />
-              <Route path='/metod-catedra' element={<Catedra/>} />
-              <Route path='/metod-proyectos' element={<MetodProyectos/>} />
-              <Route path='/metod-salidas' element={<Salidas/>} />
-              <Route path='/metod-tareas' element={<Tareas/>} />
-              <Route path='/equipo' element={<Equipo/>} />
-            </Routes>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+  return(
+    <BrowserRouter>
+      <div className='body-container'>
+        <div className='app-feed'>
+          <div className='carousel-container'>
+              <Carousel />
           </div>
+          
+          <Navbar />
+
+          <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/descripcion' element={<Descripcion/>} />
+            {/* Rutas de  de Historial */}
+            <Route path='/historial' element={<Historial/>} />
+            <Route path='/s2-2020' element={<S2_2020/>} />
+            <Route path='/s1-2021' element={<S1_2021/>} />
+            <Route path='/s2-2021' element={<S2_2021/>} />
+            <Route path='/proyectos' element={<Proyectos/>} />
+            {/* Rutas de  de Metodologías */}
+            <Route path='/metodologias' element={<Metodologias/>} />
+            <Route path='/metod-ayudantias' element={<Ayudantias/>} />
+            <Route path='/metod-catedra' element={<Catedra/>} />
+            <Route path='/metod-proyectos' element={<MetodProyectos/>} />
+            <Route path='/metod-salidas' element={<Salidas/>} />
+            <Route path='/metod-tareas' element={<Tareas/>} />
+            <Route path='/equipo' element={<Equipo/>} />
+          </Routes>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
-      </BrowserRouter>
-    );
-  }
+      </div>
+    </BrowserRouter>
+  );
+  
 }
 
 

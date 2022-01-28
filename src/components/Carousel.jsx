@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../css/App.css';
 
-class Carousel extends Component {
-    render() {
-        return (
-            <div className='carousel-div'>
-                <img src={require('../img/feed_img.png')} alt="Ramos Sello IPCh" className='view-img'/>
-            </div>
-        );
-    }
+const Carousel = () => {
+
+    return (
+        <div className='carousel-div'>
+            <img src={require('../img/feed_img.png')} alt="Ramos Sello IPCh" className='view-img'/>
+        </div>
+    );
 }
 
 export default Carousel;
