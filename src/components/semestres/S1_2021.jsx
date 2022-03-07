@@ -8,10 +8,10 @@ const S1_2021 = () => {
 
     const dataRamosS1_2021 = [
                         ['Diseño de Elementos de Máquinas - ICM2333', 'Ingeniería Mecánica y Metalúrgica.', 'Diego Celentano.', 'Isa Oyarzo.', 
-                        'El proyecto semestral del curso incorporó como temática principal las problemáticas reales de la Fundación Corpaliv. \
+                        'El proyecto semestral del curso incorporó como temática principal problemáticas reales de la Fundación Corpaliv. \
                         Los estudiantes debieron abordar los desafíos de la fundación desarrollando soluciones orientadas a acoger, orientar y acompañar a niños, \
                         niñas y jóvenes con discapacidad múltiple y a sus familias.', '44.'],
-                        ['Diseño en Ingeniería Biomédica - IBM2123', 'Instituto de Ingeniería Biológica y Médica.', 'Vicente Parot.', 'Sin ayudante.', 
+                        ['Diseño en Ingeniería Biomédica - IBM2122', 'Instituto de Ingeniería Biológica y Médica.', 'Vicente Parot.', 'Sin ayudante.', 
                         'Curso parcialmente Sello IPCh. Este curso capstone trabajó un proyecto brindado por iniciativa IPCh, \
                         relacionado a enfermedad fibromialgia.', '6 estudiantes en proyecto IPCh.'],
                         ['Gestión de Operaciones - ICS3213', 'Ingeniería Industrial y de Sistemas.', 'Alejandro MacCawley.', 'Eduards Triviño.', 
@@ -23,10 +23,10 @@ const S1_2021 = () => {
                         a la construcción de vivienda social y el servicio público.', '69.'],
                         ['Introducción a la Economía - ICS1513', 'Ingeniería Industrial y de Sistemas.', 'Cristobal Munoz y Emil Namur.', 
                         'Joaquín Terreros.', 'El proyecto semestral se contextualizó en la aplicación de la economía en Políticas Públicas. \
-                        Además, se realizaon ayudantías con ejercicios relacionados a distintos desafíos ingenieriles abordables desde los \
+                        Además, se realizaron ayudantías con ejercicios relacionados a distintos desafíos ingenieriles abordables desde los \
                         contenidos del curso.', '109.'],
-                        ['Investigación, Innovación y Emprendimiento - ING2030', 'Subdirección de Innovación.', 'Constance Fleet, \
-                        Loreto Acevedo, Alfonso Cruz, Michael Leatherbee y Patricio Lillo.', 'Isa Oyarzo.', 
+                        ['Investigación, Innovación y Emprendimiento - ING2030', 'Subdirección de Innovación.', 'Loreto Acevedo, Alfonso Cruz, \
+                        Constance Fleet, Michael Leatherbee y Patricio Lillo.', 'Isa Oyarzo.', 
                         'La temática general del curso con la que los estudiantes deben realizar sus proyectos de innovación fue una \
                         relacionado a la sustentabilidad: Energías Limpias. Además, para las distintas plenarias se tuvieron charlistas \
                         con expertos en temáticas relacionadas al servicio público, emprendimiento social y el mismo tema del curso.', 

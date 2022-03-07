@@ -7,24 +7,45 @@ import Collapse from '../features/Collapse';
 const S2_2021 = () => {
 
     const dataRamosS2_2021 = [
-                        ['Diseño en Ingeniería Biomédica - IBM2123', 'Instituto de Ingeniería Biológica y Médica.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'],
-                        ['Introducción a la Economía - ICS1513', 'Ingeniería Industrial y de Sistemas.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'],
-                        ['Investigación, Innovación y Emprendimiento - ING2030', 'Subdirección de Innovación.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'], 
-                        ['Mecánica de Fluidos - ICH1104', 'Ingeniería Hidráulica y Ambiental.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'],
-                        ['Optimización - ICS3213', 'Ingeniería Industrial y de Sistemas.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'],
-                        ['Proyecto de Diseño Mecánico - ICS3213', 'Ingeniería Mecánica y Metalúrgica.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'],
-                        ['Peligros y Riesgos Geológicos - ICE2640', 'Ingeniería Estructural y Geotécnica.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'],
-                        ['Sustentabilidad en la Construcción - ICC3464', 'Ingeniería y Gestión de la Construcción.', 'Profesor 1.', 'Ayudante 1.', 
-                        'propuesta 1.', 'número de estudiantes.'], 
+                        ['Diseño en Ingeniería Biomédica - IBM2123', 'Instituto de Ingeniería Biológica y Médica.', 'Vicente Parot.', 'Sin ayudante.', 
+                        'Curso parcialmente Sello IPCh. Este curso capstone trabajó un proyecto brindado por iniciativa IPCh, \
+                        relacionado a enfermedad fibromialgia.', '6 estudiantes en proyecto IPCh.'],
+                        ['Introducción a la Economía - ICS1513', 'Ingeniería Industrial y de Sistemas.', 'Cristóbal Muñoz, \
+                        Emil Namur, Manuel Perez y Juan Sepúlveda.', 
+                        'Pedro Becker, Catalina Bermedo y Vicente Durandeu.', 
+                        'El proyecto semestral se contextualizó en la investigación y aplicación de la economía en Políticas Públicas. \
+                        Además, se realizó un fuerte seguimiento del trabajo de los estudiantes de parte del cuerpo de ayudantes por medio de \
+                        ayudantías y foros de discusión, instancias en las que los estudiantes reforzaban los conocimientos \
+                        acerca de políticas públicas.', '528.'],
+                        ['Investigación, Innovación y Emprendimiento - ING2030', 'Subdirección de Innovación.', 'Alfonso Cruz, David Fernández, Felix Halcartegaray, \
+                        Isabel Hilliger, Francisco Pizarro, Claudia Prieto, Patricio Lillo y Álvaro Rosello.', 'Isa Oyarzo.', 
+                        'La temática general del curso con la que los estudiantes deben realizar sus proyectos de innovación fue una \
+                        relacionado a la tecnología del 5G para el beneficio de las personas. Además, para las distintas plenarias se tuvieron charlistas \
+                        con expertos en temáticas relacionadas al servicio público, emprendimiento social y el mismo tema del curso.', '451.'], 
+                        ['Mecánica de Fluidos - ICH1104', 'Ingeniería Hidráulica y Ambiental.', 'Wernher Brevis, Rodrigo Cienfuegos y Karina Soto.', 'Javiera Boada y Fernanda Estrada.', 
+                        'Se realizaron ayudantías en las que se desarrollaron ejercicios contextualizados en un problema real de \
+                        gran impacto a personas, sociedad y/o el ecosistema en su conjunto.', '380.'],
+                        ['Optimización - ICS1113', 'Ingeniería Industrial y de Sistemas.', 'Raimundo Cuadrado, Jaime González, Mathias Klapp, Sebastián Vásquez y \
+                        Felipe Verástegui.', 'Daniel Florea.', 
+                        'En el proyecto semestral del curso los estudiantes trabajaron con desafíos reales relacionados a ayudar a planificar decisiones que permitan \
+                        incrementar y/o evitar la pérdida de bienestar social. Asimismo, se invitaron a charlistas que entregaron su \
+                        testimonio sobre cómo aplicar la optimización en un caso real de gran impacto a personas.', '525.'],
+                        ['Proyecto de Diseño Mecánico - ICM2026', 'Ingeniería Mecánica y Metalúrgica.', 'Diego Celentano y Marco Sánchez.', 'Florencia Bianchi y Alberto Castro.', 
+                        'El proyecto semestral del curso incorporó como temática principal problemáticas reales de un jardín infantil. \
+                        Los estudiantes debieron abordar los desafíos del jardín desarrollando soluciones orientadas a acoger y estimular a niños y \
+                        niñas.', '51.'],
+                        ['Procesos Superficiales y Peligros Geológicos - ICE2029', 'Ingeniería Estructural y Geotécnica.', 'Carlos Marquardt.', 'Paulina Vergara.', 
+                        'El proyecto semestral del curso implicó trabajar directamente con la contraparte TECHO en un análisis geotécnico de los peligros y riesgos \
+                        geológicos de una comunidad con la que trabaja la fundación. Los estudiantes debieron realizar salidas a terreno e interactuar con personas de \
+                        la comunidad para levantar toda la información necesaria para el entregable final.', '7.'],
+                        ['Sustentabilidad en la Construcción - ICC3464', 'Ingeniería y Gestión de la Construcción.', 'Manuel Carpio.', 'Sin ayudante.', 
+                        'Se invitaron a charlistas que entregaron su testimonio sobre cómo aplicar la sustentabilidad \
+                        en la construcción en un caso real de gran impacto a personas.', '46.'], 
                         ['Taller de Evaluación, Tratamiento y Remediación Ambiental - ICH2394', 'Ingeniería Hidráulica y Ambiental.', 
-                        'Profesor 1.', 'Ayudante 1.', 'propuesta 1.', 'número de estudiantes.'],]
+                        'María Molinos.', 'Daniela Madrazo, Angel Perez (contacto Puentes UC).', 
+                        'Se colaboró en la comunicación y coordinación con Puentes UC y los estudiantes, para definir el trabajo a realizar con la Municipalidad que \
+                        jugaba el rol de contraparte en el proyecto. Se realizó un trabajo con instituciones públicas al acercar la estructura de la postulación a fondos a los \
+                        proyectos de los estudiantes, con el fin de facilitar este proceso a la contraparte.', '60.'],]
 
     return (
         <div className='view-container'>

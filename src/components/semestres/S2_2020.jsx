@@ -37,7 +37,7 @@ const S2_2020 = () => {
                         en casos reales. Se invitaron a charlistas que entregaron su testimonio sobre cómo aplicar la sustentabilidad \
                         en la construcción en un caso real de gran impacto a personas.', '37.'],
                         ['Taller de Evaluación, Tratamiento y Remediación Ambiental - ICH2394', 'Ingeniería Hidráulica y Ambiental.', 'María Molinos.', 
-                        'Daniela Madrazo, Angel Perez (contacto Puentes UC).', 'Se colaboró en la comunicación y coordinación con Puentes UC \
+                        'Daniela Madrazo y Angel Perez (contacto Puentes UC).', 'Se colaboró en la comunicación y coordinación con Puentes UC \
                         y los estudiantes, para definir el trabajo a realizar con la contraparte del semestre: Municipalidad de Frutillar.\
                         Se realizó un trabajo con instituciones públicas al acercar la estructura de la postulación a fondos a los proyectos de los \
                         estudiantes, con el fin de facilitar este proceso a la contraparte.', '75.']]
