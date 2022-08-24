@@ -43,6 +43,14 @@ h2.view-title {
   font-family: "Montserrat", sans-serif;
 }
 
+h2.ramos-text {
+  font-family: "Signika", sans-serif;
+}
+
+h3.ramos-text {
+  font-family: "Signika", sans-serif;
+}
+
 h4.ramos-text {
   font-family: "Signika", sans-serif;
 }
@@ -143,8 +151,8 @@ p.normal-text-white {
   transition: all 0.5s ease;
 }
 
-/* CARROUSEL */
-.carousel-div {
+/* APP BACKGROUND */
+.background-div {
   position: relative;
   height: auto;
   width: 100%;

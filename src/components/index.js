@@ -1,4 +1,4 @@
-export { default as Carousel} from './Carousel';
+export { default as AppBackground} from './AppBackground';
 export { default as Navbar} from './Navbar';
 export { default as Home} from './Home';
 export { default as Descripcion} from './Descripcion';

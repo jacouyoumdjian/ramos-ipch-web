@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Carousel, Navbar, Home, Descripcion, Historial, S2_2020, 
+import React from 'react';
+import { AppBackground, Navbar, Home, Descripcion, Historial, S2_2020, 
   S1_2021, S2_2021, Proyectos, Metodologias, Ayudantias, Catedra, MetodProyectos, Salidas, Tareas, Equipo } from './components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@coreui/coreui/dist/css/coreui.min.css'
@@ -12,8 +12,8 @@ const App = () => {
     <BrowserRouter>
       <div className='body-container'>
         <div className='app-feed'>
-          <div className='carousel-container'>
-              <Carousel />
+          <div className='background-container'>
+              <AppBackground />
           </div>
           
           <Navbar />
