@@ -10,39 +10,38 @@ const Descripcion = () => {
             <br />
             <br />
             <div className='center-content'>
-                <h2 className='view-title'>¿Qué son los Ramos Sello IPCh?</h2>
                 <br />
                 <div className='view-content-template'>
                     <div className='description-text-div'>
+                        <h4 className='ramos-text'>¿Qué son los Ramos Sello IPCh?</h4>
                         <p className='normal-text'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        Son una iniciativa impulsada desde estudiantes y profesores, que se ha concretado por medio de la 
+                        Dirección de Responsabilidad Social y el proyecto estudiantil Ingeniería Para Chile (IPCh). Este sello 
+                        consiste en entregarle a los ramos de la Escuela de Ingeniería un valor adicional a sus contenidos y 
+                        metodologías de evaluación y aprendizaje, a través de un enfoque a una ingeniería para Chile.
+                        </p>
+                        <br/><br/>
+                        <h4 className='ramos-text'>¿Cómo nacen los Ramos Sello IPCh?</h4>
+                        <p className='normal-text'>
+                        Se tomaron antecedentes del cabildo realizado el 2019 y se concretaron en un trabajo en conjunto de la 
+                        Dirección de la Responsabilidad de la Escuela y el proyecto Ingeniería Para Chile, levantar y darle 
+                        forma a esta iniciativa. Se realizó un proceso de investigación a partir de entrevistas con distintos 
+                        profesores y ayudantes que han desarrollado metodologías (tanto de aprendizaje como de evaluación) 
+                        que se alinean con los puntos mencionados anteriormente.
                         </p>
                         <br />
                         <br />
                         <div className='center-content'>
-                            <h4 className='ramos-text'>¿Cómo nacen los Ramos Sello IPCh?</h4>
+                            <h2 className='ramos-text'>Nuestros pilares</h2>
                         </div>
+                        <br />
                         <p className='normal-text'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            Estos pilares se construyeron durante el proceso de investigación previo, en base a la información y 
+                            percepción de los estudiantes y profesores que participaron del cabildo y entrevistas respectivamente.
                         </p>
-                        <br />
-                        <br />
-                        <div className='center-content'>
-                            <h4 className='ramos-text'>Nuestros pilares</h4>
-                        </div>
-                        <br />
+                        <br /><br />
                         <img src={require('../img/pilares.png')} alt="Ramos Sello IPCh" className='view-img' />
                         <br />
-                        <p className='normal-text'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                        </p>
                         <br />
                         <br />
                     </div>

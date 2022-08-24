@@ -16,9 +16,16 @@ const Metodologias = () => {
                 <div className='view-content-template'>
                     <div className='metodologias-text-div'>
                         <p className='normal-text'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                            printer took a galley of type and scrambled it to make a type specimen book.
+                        Los ramos con sello IPCh buscan acercar problemáticas sociales a los cursos ya existentes en la
+                        Escuela de Ingeniería, mediante las distintas instancias metodológicas de aprendizaje y evaluación
+                        que tienen. Cabe destacar, que estas metodologías que involucran el Sello se planean y ejecutan 
+                        en conjunto con el equipo docente del curso, debido a que es fundamental que se alineen con sus objetivos 
+                        para que no se entorpezca el proceso de aprendizaje de los estudiantes.
+                        <br /><br />
+                        En este apartado, se desglosan todas las instancias académicas de un curso en las que se puede 
+                        implementar el Sello IPCh. Estas se dividen en: ayudantías, cátedras, proyectos, salidas a terrenos, 
+                        tareas, entre otras. A continuación, se presentan las posibles iniciativas en las que se puede 
+                        implementar el Sello, por cada metodología de aprendizaje y evaluación de los cursos.
                         </p>
                         <br /><br />
                     </div>
